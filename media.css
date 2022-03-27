@@ -1,0 +1,251 @@
+@media (max-width: 1350px) {
+    .header_container{
+        width: 100%;
+    }
+    .levels_main_box{
+        padding: 50px 5%;
+    }
+    .bottom_arrow_box{
+        display: none;
+    }
+    .img_box img{
+        margin: 50px 0px 0px 0px;
+    }
+    .maraphon_container{
+        width: 95%;
+    }
+    .about_changes_in_life_main_box{
+        padding: 40px 5% 50px 5%;
+    }
+    .before_footer_box{
+        padding: 70px 5% 70px 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .header_decore_img{
+        display: none;
+    }
+    .about_us_row{
+        flex-direction: column;
+    }
+    .box_info{
+        width: 90%;
+        padding: 15px 15px;
+    }
+    .container{
+        width: 90%;
+    }
+
+    .img_and_content{
+        flex-direction: column;
+    }
+    .img_box, .content{
+        width: 100%;
+    }
+    .content_box .img_and_content .content{
+        margin-left: 10px;
+    }
+
+    .maraphon_container{
+        flex-direction: column;
+    }
+    .info_box{
+        width: 100%;
+    }
+    .info_box .content_text_paragraphs{
+        text-align: left;
+    }
+    .info_box{
+        margin-bottom: 40px;
+    }
+    .info_box:last-child{
+        margin-bottom: 0px;
+    }
+    .maraphon_main_box{
+        padding-bottom: 20px;
+    }
+    .levels_main_box{
+        padding: 50px 1%;
+    }
+    .box_5{
+        margin-bottom: -15px;
+    }
+    .texts_box{
+        display: none;
+    }
+    .life_changes_info_box img{
+        margin-bottom: 0px;
+    }
+    .life_changes_box{
+        gap: 10px 20px;
+    }
+    .marathon_author_box{
+        padding: 20px 5% 30px 5%;
+    }
+    .marathon_author_box h1{
+        font-size: 28px;
+    }
+    .marathon_author_box h3{
+        font-size: 24px;
+    }
+    .before_footer_box_form b{
+        font-size:16px;
+        margin-bottom: 0px;
+    }
+    .author_and_desc{
+        flex-direction: column;
+    }
+    .author_desc{
+        margin:25px 0px 0px 0px;
+    }
+    .about_changes_in_life_main_box h1{
+        font-size: 24px;
+    }
+    .life_box_buttons{
+        margin-bottom: 20px; 
+        width: 100%;
+        font-size: 20px;
+    }
+    .before_footer_box{
+        padding: 20px 0%;
+    }
+    .before_footer_box_form_inputs, .before_footer_box_form button{
+        padding: 15px 65px;
+        font-size: 16px;
+    }
+    .before_footer_box_form_inputs{
+        padding: 10px 20px;
+    }
+    .before_footer_box_form{
+        padding: 15px;
+        width: auto;
+        margin-left:55px;
+    }
+    .before_footer_box_content .content_text_paragraphs span{
+        font-size: 14px;
+    }
+    .before_footer_box_content .content_text_paragraphs img{
+        width: 50px;height: 45px;
+    }
+    .before_footer_box_content h1{
+        font-size:35px;
+    }
+    .before_footer_box_content_last_span{
+        margin-left: 55px;
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media (max-width: 501px){
+    .logo{
+        display: none;
+    }
+    .logo_desc{
+        font-size:14px;
+    }
+    .celendar_and_desc{
+        margin: 10px 0px;
+    }
+    .header_container{
+        width: 90%;
+    }
+    .header_container h1{
+        font-size: 35px;
+    }
+    .header_name {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .box_info{
+        height: 100px;
+        margin: 30px 0px 25px 0px;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+    .content_box_header{
+        font-size: 16px;
+        line-height: 23px;
+        flex-direction: column;
+    }
+    .data_box, .header{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .content{
+        font-size: 12px;
+    }
+    .content h4{
+        margin:30px 0px;
+        font-size: 16px;
+    }
+    .content .content_text_paragraphs img{
+        margin-right: 7px;
+    }
+    .levels_main_box{
+        display: none;
+    }
+    /*                                             LIFE CHANGES BOX NEED ADAPTIV!!!                                               */
+    .life_changes_box{
+        grid-template-columns: auto;
+        width: 100%;
+        text-align: center;
+        row-gap: 25px;
+    }
+    /* .life_changes_info_box{
+        margin-bottom: 50px;
+    } */
+    .before_footer_box{
+        flex-direction: column;
+        padding: 20px 0px 0px 0px;
+    }
+    .before_footer_box_form {
+        margin-left: 0px;
+        border: none;
+        padding: 0px;
+        height: 350px;
+        background: linear-gradient(-135deg, rgb(174, 0, 255), rgb(106, 31, 226));
+        border-radius: 50px 50px 0px 0px;
+        margin-top: 15px;
+    }
+    .before_footer_box_content {
+        width: 90%;
+    }
+    footer{
+        display: block;
+        
+    }
+    footer div:last-child{
+        text-align: left;
+        margin-left: 0px;
+    }
+    footer div:last-child small{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
